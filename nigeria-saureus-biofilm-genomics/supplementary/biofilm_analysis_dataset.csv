@@ -1,0 +1,108 @@
+staphscope_id,icaA,icaB,icaC,icaD,icaR,fnbA,fnbB,clfA,clfB,sdrC,sdrD,sdrE,ebp,cna,biofilm_score,isolate_num,Storage No,ID,UK NUMBER,DATE,Month analysis,week,LAB HOSPITALNO,SAMPLE,DIAGNOSIS,AGE in years,SEX,MALDI-TOF,MLST,spa_Type,SCCmec_Type,MRSA_Status,amr_gene_count
+064171_1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,13,1,22,T248,U1,2017-05-31,5,22.0,Igbobi,wound swab/pus,Wound infection,35.0,Male,S.aureus,ST772,t657,SCCmec_type_V(5C2),MRSA,122
+064172_2,1,1,1,1,1,1,1,1,1,1,1,1,1,0,13,2,23,L322,U2,2017-05-31,5,,LUTH,wound swab/pus,Wound infection,87.0,Male,S.aureus,ST772,t657,SCCmec_type_V(5C2),MRSA,122
+064173_3,1,1,1,1,1,1,1,1,1,1,1,1,1,0,13,3,24,IK17,U3,2017-03-13,3,,IKEJA,aspirate/Ulcer/abscess,others,61.0,Male,S.aureus,ST8,t451,Not Assigned,MSSA,113
+064174_4,1,1,1,1,1,1,1,1,1,1,1,1,1,0,13,4,25,T213,U4,2017-12-05,12,,Igbobi,wound swab/pus,Wound infection,35.0,Male,S.aureus,ST772,t657,SCCmec_type_V(5C2),MRSA,122
+064175_5,1,1,1,1,1,1,1,1,1,0,1,1,1,0,12,5,9,L133,U5,2017-02-05,0,,LUTH,wound swab/pus,Wound infection,35.0,Male,S.aureus,Not typed,t5129,Not Assigned,MSSA,73
+064176_6,1,1,1,1,1,1,1,1,1,1,1,1,1,0,13,6,12,T245,U6,2017-05-31,5,,Igbobi,wound swab/pus,Wound infection,35.0,Male,S.aureus,ST772,t657,SCCmec_type_V(5C2),MRSA,121
+064177_7,1,1,1,1,1,1,1,1,1,0,1,1,1,0,12,7,13,L113,U7,2017-05-04,5,,LUTH,eye discharge,others,0.096,Male,S.aureus,Not typed,t5129,Not Assigned,MSSA,73
+064178_8,1,1,1,1,1,1,1,1,1,1,1,1,1,0,13,8,14,T246,U8,2017-05-31,5,,Igbobi,wound swab/pus,Wound infection,70.0,Male,S.aureus,ST7669,t657,SCCmec_type_V(5C2),MRSA,122
+064179_9,1,1,1,1,1,1,1,1,1,1,1,1,1,0,13,9,15,T200,U9,2017-10-05,10,,Igbobi,wound swab/pus,Wound infection,24.0,Male,S.aureus,ST789,t091,SCCmec_type_V(5C2&5),MRSA,101
+064180_10,1,1,1,1,1,1,1,1,1,1,1,1,1,0,13,10,21,t228,U10,2017-05-24,5,,Igbobi,wound swab/pus,Wound infection,15.0,Male,S.aureus,ST772,t657,SCCmec_type_V(5C2),MRSA,122
+064181_11,1,1,1,1,1,1,1,1,1,1,1,1,1,0,13,11,29,IK30,U11,2017-03-20,3,,IKEJA,wound swab/pus,Wound infection,54.0,Male,S.aureus,ST8,t008,SCCmec_type_V(5C2&5),MRSA,99
+064182_12,1,1,1,1,1,1,1,1,1,1,1,1,1,0,13,12,30,T37,U12,2017-07-03,7,,Igbobi,urine/catether tip,others,35.0,Male,S.aureus,ST772,t657,SCCmec_type_V(5C2),MRSA,127
+064183_13,1,1,1,1,1,1,1,1,1,1,0,1,0,1,12,13,11,IK29,U13,2017-03-20,3,,IKEJA,wound swab/pus,Wound infection,14.0,Male,S.aureus,ST121,t314,Not Assigned,MSSA,83
+064184_14,1,1,1,1,1,1,1,1,1,0,1,1,1,0,12,14,10,L110,U14,2017-05-04,5,,LUTH,Blood culture,blood,0.12,Male,S.aureus,Not typed,t355,Not Assigned,MSSA,73
+064185_15,1,1,1,1,1,1,1,1,1,0,1,1,1,1,13,15,44,L143,U15,2017-04-18,4,,LUTH,Blood culture,blood,0.016,Female,S.aureus,ST152,t355,Not Assigned,MSSA,67
+064186_16,1,1,1,1,1,1,0,1,1,1,1,1,1,1,13,16,56,IK89,U16,2017-12-05,12,,IKEJA,wound swab/pus,Wound infection,11.0,Female,S.aureus,ST30,t318,Not Assigned,MSSA,84
+064187_17,1,1,1,1,1,1,1,1,1,1,1,1,1,0,13,17,55,IK85,U17,2017-12-05,12,,IKEJA,wound swab/pus,Wound infection,54.0,Male,S.aureus,ST5,t311,Not Assigned,MSSA,78
+064188_18,1,1,1,1,1,1,1,1,1,1,0,1,1,0,12,18,49,T231,U18,2017-05-18,5,,Igbobi,wound swab/pus,Wound infection,1.0,Male,S.aureus,ST15,t853,Not Assigned,MSSA,84
+064189_19,1,1,1,1,1,1,1,1,1,0,1,1,1,0,12,19,5,L232,U19,2017-04-05,4,,LUTH,Blood culture,Sepsis,25.0,Male,S.aureus,ST152,t355,Not Assigned,MSSA,80
+064190_20,1,1,1,1,1,1,0,1,1,1,1,1,1,0,12,20,6,L321,U20,2017-05-31,5,,LUTH,Trachea/sputum,others,42.0,Male,S.aureus,ST88,t5814,SCCmec_type_V(5C2&5),MRSA,107
+064191_21,1,1,1,1,1,1,1,1,1,1,1,1,1,0,13,21,1,L109,U21,2017-05-04,5,,LUTH,Blood culture,Sepsis,41.0,Male,S.aureus,Not typed,t657,SCCmec_type_V(5C2),MRSA,121
+064192_22,1,1,1,1,1,1,1,1,1,1,1,1,1,0,13,22,2,L291,U22,2017-04-05,4,,LUTH,wound swab/pus,Wound infection,32.0,Female,S.aureus,ST772,t657,SCCmec_type_V(5C2),MRSA,121
+064193_23,1,1,1,1,1,1,0,1,1,1,1,1,1,0,12,23,3,L235,U23,2017-02-05,2,,LUTH,Blood culture,Sepsis,15.0,Male,S.aureus,ST30,t318,Not Assigned,MSSA,78
+064194_24,1,1,1,1,1,1,1,1,1,0,1,1,1,0,12,24,16,L60,U24,2017-03-16,3,,LUTH,wound swab/pus,Wound infection,17.0,Female,S.aureus,ST152,t4690,SCCmec_type_V(5C2&5),MRSA,80
+064195_25,1,1,1,1,1,1,1,1,1,1,1,1,1,0,13,25,17,T236,U25,2017-05-24,5,,Igbobi,aspirate/Ulcer/abscess,others,34.0,Female,S.aureus,ST15,t084,Not Assigned,MSSA,74
+064196_26,1,1,1,1,1,1,1,1,1,1,1,1,1,0,13,26,18,L318,U26,2017-05-24,5,,LUTH,wound swab/pus,Wound infection,28.0,Male,S.aureus,ST772,t657,SCCmec_type_V(5C2),MRSA,122
+064197_27,1,1,1,1,1,1,1,1,1,1,1,1,1,0,13,27,19,L77,U27,2017-03-28,3,,LUTH,earswab,others,80.0,Female,S.aureus,ST8,t064,SCCmec_type_V(5C2&5),MRSA,116
+064198_28,1,1,1,1,1,1,1,1,1,1,1,1,1,0,13,28,20,IK37,U28,2017-03-23,3,,IKEJA,earswab,others,6.0,Male,S.aureus,ST1,t127,Not Assigned,MSSA,80
+064199_29,1,1,1,1,1,1,1,1,1,1,1,1,1,0,13,29,28,L224,U29,2017-05-18,5,,Igbobi,wound swab/pus,Wound infection,9.0,Female,S.aureus,ST8,t064,SCCmec_type_V(5C2&5),MRSA,106
+064200_30,1,1,1,1,1,1,1,1,1,1,0,1,1,0,12,30,51,IK53,U30,2017-11-04,11,,IKEJA,wound swab/pus,Wound infection,10.0,Female,S.aureus,ST508,t630,Not Assigned,MSSA,49
+064201_31,1,1,1,1,1,1,1,1,1,1,1,1,1,0,13,31,7,L101,U31,2017-03-30,3,,LUTH,wound swab/pus,others,45.0,Male,S.aureus,ST772,t657,SCCmec_type_IV(2B),MRSA,115
+064202_32,1,1,1,1,1,1,1,1,1,1,1,1,1,0,13,32,8,T171,U32,2017-02-05,2,,LUTH,urine/catether tip,urine,35.0,Female,S.aureus,ST94,t008,Not Assigned,MSSA,96
+064203_33,1,1,1,1,1,1,1,1,1,1,1,1,1,0,13,33,4,T187,U33,2017-04-03,4,,Igbobi,wound swab/pus,Wound infection,57.0,Male,S.aureus,ST772,t657,SCCmec_type_V(5C2),MRSA,122
+064204_34,1,1,1,1,1,1,1,1,1,1,1,1,1,0,13,34,31,IK21,U34,2017-03-13,3,,IKEJA,HVS/ECS,genitals,30.0,Female,S.aureus,ST772,t657,SCCmec_type_V(5C2),MRSA,122
+064205_35,1,1,1,1,1,1,1,1,1,1,0,1,0,0,11,35,26,T295,U35,2017-10-16,10,,LUTH,wound swab/pus,Wound infection,52.0,Male,S.aureus,ST121,t314,Not Assigned,MSSA,94
+064206_36,1,1,1,1,1,1,1,1,1,1,1,1,1,0,13,36,27,L01,U36,2017-08-03,8,,LUTH,Blood culture,blood,3.0,Male,S.aureus,ST772,t657,SCCmec_type_IV(2B),MRSA,116
+064207_37,1,1,1,1,1,1,1,1,1,0,1,1,1,1,13,37,47,IK50,U37,2017-11-04,11,,IKEJA,Blood culture,blood,2.0,Male,S.aureus,ST152,t4690,SCCmec_type_V(5C2&5),MRSA,80
+064208_38,1,1,1,1,1,1,1,1,1,1,0,1,1,0,12,38,50,T36,U38,2017-12-04,12,,Igbobi,wound swab/pus,Wound infection,6.0,Female,S.aureus,ST508,t630,Not Assigned,MSSA,49
+064209_39,1,1,1,1,1,1,1,1,1,1,1,1,1,0,13,39,81,T224,U39,2017-05-18,5,,Igbobi,wound swab/pus,Wound infection,9.0,Female,S.aureus,ST1,t127,Not Assigned,MSSA,73
+064210_40,1,1,1,1,1,1,1,1,1,1,1,1,1,0,13,40,37,IK63,U40,2017-04-19,4,,IKEJA,wound swab/pus,others,57.0,Female,S.aureus,ST8,t064,SCCmec_type_V(5C2&5),MRSA,94
+064211_41,1,1,1,1,1,1,1,1,1,1,1,1,1,0,13,41,53,IK69,U41,2017-04-20,4,,IKEJA,wound swab/pus,Wound infection,53.0,Male,S.aureus,ST789,t091,Not Assigned,MSSA,103
+064212_42,1,1,1,1,1,1,1,1,1,1,1,1,1,0,13,42,46,IK106,U42,2017-05-24,5,,IKEJA,urine/catether tip,urine,44.0,Female,S.aureus,ST2434,t346,Not Assigned,MSSA,78
+064213_43,1,1,1,1,1,1,1,1,1,1,1,1,1,1,14,43,52,IK55,U43,2017-11-04,11,,IKEJA,wound swab/pus,Wound infection,53.0,Female,S.aureus,ST1,t7835,Not Assigned,MSSA,69
+064214_44,1,1,1,1,1,1,1,1,1,1,1,1,1,0,13,44,45,IK116,U44,2017-06-06,6,,IKEJA,wound swab/pus,Wound infection,16.0,Female,S.aureus,ST5,t002,Not Assigned,MSSA,81
+064215_45,1,1,1,1,1,1,0,1,1,1,1,1,1,1,13,45,75,T178,U45,2017-04-05,4,,LUTH,wound swab/pus,wound infection,54.0,Female,S.aureus,ST30,t318,Not Assigned,MSSA,111
+064216_46,1,1,1,1,1,1,1,1,1,1,0,1,1,0,12,46,76,T168,U46,2017-02-05,2,,Igbobi,wound swab/pus,Wound infection,51.0,Male,S.aureus,ST508,t630,Not Assigned,MSSA,49
+064217_47,1,1,1,1,1,1,1,0,1,1,1,1,1,0,12,47,67,L307,U47,2017-05-15,5,,LUTH,wound swab/pus,Wound infection,35.0,Female,S.aureus,ST772,t657,SCCmec_type_V(5C2),MRSA,133
+064218_48,1,1,1,1,1,1,1,1,1,1,1,1,1,0,13,48,8,T269,U48,2017-07-21,7,,Igbobi,wound swab/pus,Wound infection,5.0,Female,S.aureus,ST15,t084,Not Assigned,MSSA,80
+064219_49,1,1,1,1,1,1,1,1,1,1,1,1,1,0,13,49,36,T220,U49,2017-05-18,5,,Igbobi,wound swab/pus,Wound infection,53.0,Female,S.aureus,ST789,t091,Not Assigned,MSSA,89
+064220_50,1,1,1,1,1,1,0,1,1,1,1,1,1,1,13,50,40,L129,U50,2017-12-04,12,,LUTH,aspirate/Ulcer/abscess,others,51.0,Female,S.aureus,ST30,t318,Not Assigned,MSSA,111
+064221_51,1,1,1,1,1,1,1,1,1,1,1,1,1,0,13,51,39,L333,U51,2017-06-13,6,,LUTH,Blood culture,blood,1.0,Female,S.aureus,ST772,t657,SCCmec_type_V(5C2),MRSA,122
+064222_52,1,1,1,1,1,1,1,1,1,1,1,1,1,0,13,52,38,T181,U52,2017-04-05,4,,Igbobi,urine/catether tip,urine,23.0,Male,S.aureus,ST5,t311,Not Assigned,MSSA,78
+064223_53,1,1,1,1,1,1,1,1,1,1,1,1,1,0,13,53,33,L378,U53,2017-10-26,10,,LUTH,wound swab/pus,Wound infection,35.0,Male,S.aureus,ST1,t1931,SCCmec_type_V(5C2&5),MRSA,76
+064224_54,1,1,1,1,1,1,1,1,1,0,1,1,1,1,13,54,34,IK54,U54,2017-11-04,11,,IKEJA,wound swab/pus,others,34.0,Male,S.aureus,ST152,t4690,SCCmec_type_V(5C2&5),MRSA,80
+064225_55,1,1,1,1,1,1,1,1,1,1,0,1,1,0,12,55,60,L122,U55,2017-12-04,12,,LUTH,Blood culture,blood,19.0,Female,S.aureus,ST508,t630,Not Assigned,MSSA,49
+064226_56,1,1,1,1,1,1,1,1,1,1,1,1,1,0,13,56,35,IK119,U56,2017-06-06,6,,IKEJA,wound swab/pus,Wound infection,45.0,Male,S.aureus,ST772,t345,SCCmec_type_V(5C2),MRSA,128
+064227_57,1,1,1,1,1,1,1,1,1,1,0,1,1,0,12,57,54,IK84,U57,2017-12-05,12,,IKEJA,wound swab/pus,Wound infection,35.0,Male,S.aureus,ST508,t630,Not Assigned,MSSA,49
+064228_58,1,1,1,1,1,1,0,1,1,1,1,1,1,0,12,58,32,T179,U58,2017-04-05,4,,Igbobi,urine/catether tip,urine,27.0,Female,S.aureus,ST30,t318,Not Assigned,MSSA,111
+064230_60,1,1,1,1,1,1,0,1,1,1,1,1,1,0,12,60,15,T281,U60,2017-08-16,8,,Igbobi,wound swab/pus,Wound infection,15.0,Male,S.aureus,ST88,t5814,SCCmec_type_V(5C2&5),MRSA,107
+064231_61,1,1,1,1,1,1,1,1,1,1,1,1,1,0,13,61,72,L342,U61,2017-06-18,6,,LUTH,wound swab/pus,Wound infection,1.0,Female,S.aureus,ST772,t657,SCCmec_type_V(5C2),MRSA,121
+064232_62,1,1,1,1,1,1,1,1,1,1,1,1,1,0,13,62,73,L375,U62,2017-10-19,10,,LUTH,aspirate/Ulcer/abscess,others,0.038,Female,S.aureus,ST772,t657,SCCmec_type_V(5C2),MRSA,121
+064233_63,1,1,1,1,1,1,1,1,1,1,1,1,1,0,13,63,74,L386,U63,2017-10-19,10,,LUTH,Blood culture,blood,67.0,Male,S.aureus,ST8,t064,SCCmec_type_V(5C2&5),MRSA,97
+064234_64,1,1,1,1,1,1,1,1,1,1,1,1,1,0,13,64,26,144,U64,2017-11-04,11,,LUTH,wound swab/pus,STAPH,38.0,Female,S.aureus,ST772,t657,SCCmec_type_V(5C2),MRSA,122
+064235_65,1,1,1,1,1,1,1,1,1,1,0,1,0,0,11,65,6,T252,U65,2017-07-06,7,,Igbobi,wound swab/pus,Wound infection,12.0,Female,S.aureus,ST121,t314,SCCmec_type_IV(2B),MRSA,90
+064236_66,1,1,1,1,1,1,1,1,1,1,1,1,1,0,13,66,7,T268,U66,2017-07-21,7,,Igbobi,wound swab/pus,Wound infection,45.0,Male,S.aureus,ST772,t657,SCCmec_type_V(5C2),MRSA,119
+064237_67,1,1,1,1,1,1,1,1,1,1,1,1,1,0,13,67,4,T241,U67,2017-05-31,5,,Igbobi,wound swab/pus,Wound infection,70.0,Female,S.aureus,ST15,t084,Not Assigned,MSSA,103
+064238_68,1,1,1,1,1,1,1,1,1,1,1,1,1,0,13,68,12,T276,U68,2017-07-21,7,,Igbobi,wound swab/pus,Wound infection,72.0,Male,S.aureus,ST772,t657,SCCmec_type_V(5C2),MRSA,121
+064239_69,1,1,1,1,1,1,1,1,1,1,0,1,1,0,12,69,41,IK10,U69,2017-03-30,3,,IKEJA,Trachea/sputum,SPUTUM,17.0,Female,S.aureus,ST15,t853,Not Assigned,MSSA,84
+064240_70,1,1,1,1,1,1,1,1,1,1,0,1,1,0,12,70,59,L142,U70,2017-04-18,4,,LUTH,Blood culture,blood,0.019,Male,S.aureus,ST508,t630,Not Assigned,MSSA,49
+064241_71,1,1,1,1,1,1,1,1,1,1,0,1,1,0,12,71,62,L144,U71,2017-04-18,4,,LUTH,Blood culture,blood,0.003,Male,S.aureus,ST669,t20568,Not Assigned,MSSA,68
+064242_72,1,1,1,1,1,1,1,1,1,1,0,1,0,0,11,72,68,L308,U72,2017-05-15,5,,LUTH,wound swab/pus,Wound infection,0.038,Male,S.aureus,ST121,t2304,Not Assigned,MSSA,91
+064243_73,1,1,1,1,1,1,0,1,1,1,1,1,1,0,12,73,69,L309,U73,2017-05-18,5,,LUTH,earswab,others,35.0,Female,S.aureus,ST30,t318,Not Assigned,MSSA,84
+064244_74,1,1,1,1,1,1,1,1,1,1,1,1,1,0,13,74,3,T239,U74,2017-05-31,5,,Igbobi,wound swab/pus,Wound infection,39.0,Male,S.aureus,ST772,t657,SCCmec_type_V(5C2),MRSA,121
+064245_75,1,1,1,1,1,1,1,1,1,1,0,1,0,0,11,75,57,IK90,U75,2017-12-05,12,,IKEJA,wound swab/pus,Wound infection,11.0,Female,S.aureus,ST121,t2304,Not Assigned,MSSA,83
+064246_76,1,1,1,1,1,1,1,1,1,0,1,1,1,0,12,76,48,IK117,U76,2017-06-06,6,,IKEJA,wound swab/pus,Wound infection,50.0,Male,S.aureus,ST152,t355,Not Assigned,MSSA,66
+064247_77,1,1,1,1,1,1,1,1,1,1,1,1,1,0,13,77,71,L325,U77,2017-06-06,6,,LUTH,Blood culture,blood,66.0,Female,S.aureus,ST772,t657,SCCmec_type_V(5C2),MRSA,122
+064248_78,1,1,1,1,1,1,1,1,1,1,1,1,1,0,13,78,77,T183,U78,2017-04-05,4,,Igbobi,wound swab/pus,Wound infection,42.0,Male,S.aureus,ST772,t657,SCCmec_type_V(5C2),MRSA,123
+064249_79,1,1,1,1,1,1,1,1,1,1,1,1,1,0,13,79,11,T275,U79,2017-07-21,7,,Igbobi,wound swab/pus,Wound infection,82.0,Male,S.aureus,ST772,t657,SCCmec_type_V(5C2),MRSA,132
+064250_80,1,1,1,1,1,1,1,1,1,0,1,1,1,0,12,80,18,T285,U80,2017-08-30,8,,Igbobi,wound swab/pus,Wound infection,40.0,Female,S.aureus,ST152,t4690,SCCmec_type_V(5C2&5),MRSA,80
+064251_81,1,1,1,1,1,1,1,1,1,1,1,1,1,0,13,81,64,L188,U81,2017-04-26,4,,LUTH,Blood culture,blood,2.0,Male,S.aureus,ST772,t657,SCCmec_type_V(5C2),MRSA,122
+064252_82,1,1,1,1,1,1,1,1,1,1,1,1,1,0,13,82,65,L227,U82,2017-02-05,2,,LUTH,Blood culture,blood,69.0,Male,S.aureus,ST772,t657,SCCmec_type_V(5C2),MRSA,127
+064253_83,1,1,1,1,1,1,1,1,1,0,1,1,1,0,12,83,66,L306,U83,2017-05-15,5,,LUTH,HVS/ECS,others,35.0,Female,S.aureus,Not typed,t355,Not Assigned,MSSA,72
+064254_84,1,1,1,1,1,1,1,1,1,1,1,1,1,0,13,84,19,T286,U84,2017-08-30,8,,Igbobi,wound swab/pus,Wound infection,25.0,Male,S.aureus,ST772,t657,SCCmec_type_V(5C2),MRSA,115
+064255_85,1,1,1,1,1,1,1,1,1,0,1,1,1,0,12,85,24,T85,U85,2017-04-19,4,,Igbobi,aspirate/Ulcer/abscess,others,26.0,Female,S.aureus,ST152,t355,Not Assigned,MSSA,67
+064256_86,1,1,1,1,1,1,1,1,1,0,1,1,1,0,12,86,13,T279,U86,2017-08-16,8,,Igbobi,wound swab/pus,Wound infection,27.0,Male,S.aureus,ST152,t4690,SCCmec_type_V(5C2&5),MRSA,106
+064257_87,1,1,1,1,1,1,1,1,1,1,1,1,1,0,13,87,20,T290,U87,2017-08-30,8,,Igbobi,wound swab/pus,Wound infection,35.0,Male,S.aureus,ST789,t091,SCCmec_type_V(5C2&5),MRSA,101
+064258_88,1,1,1,1,1,1,1,1,1,1,0,1,1,0,12,88,61,IK51,U88,2017-11-04,11,,IKEJA,earswab,others,12.0,Male,S.aureus,ST508,t630,Not Assigned,MSSA,49
+064259_89,1,1,1,1,1,1,1,1,1,1,1,1,1,0,13,89,9,T270,U89,2017-07-21,7,,Igbobi,HVS/ECS,genitals,35.0,Female,S.aureus,ST772,t657,SCCmec_type_V(5C2),MRSA,116
+064260_90,1,1,1,1,1,1,1,1,1,1,1,1,1,0,13,90,ii-1,T238,U90,2017-05-31,5,,Igbobi,wound swab/pus,Wound infection,35.0,Male,S.aureus,ST8,t9582,Not Assigned,MSSA,123
+064261_91,1,1,1,1,1,1,1,1,1,1,1,1,1,0,13,91,22,T55,U91,2017-04-13,4,,Igbobi,wound swab/pus,Wound infection,42.0,Male,S.aureus,ST772,t657,SCCmec_type_V(5C2),MRSA,122
+064262_92,1,1,1,1,1,1,1,1,1,1,1,1,1,0,13,92,63,L152,U92,2017-04-19,4,,LUTH,Blood culture,blood,0.15,Male,S.aureus,ST772,t657,SCCmec_type_V(5C2),MRSA,122
+064263_93,1,1,1,1,1,1,1,1,1,1,1,1,1,0,13,93,58,IK93,U93,2017-05-18,5,,IKEJA,HVS/ECS,genitals,30.0,Female,S.aureus,ST94,t723,Not Assigned,MSSA,105
+064264_94,1,1,1,1,1,1,1,1,1,1,1,1,1,0,13,94,25,T91,U94,2017-04-19,4,,Igbobi,aspirate/Ulcer/abscess,others,75.0,Male,S.aureus,ST772,t345,SCCmec_type_V(5C2),MRSA,121
+064265_95,1,1,1,1,1,1,1,1,1,1,1,1,1,0,13,95,14,T28,U95,2017-04-20,4,,Igbobi,wound swab/pus,Wound infection,35.0,Male,S.aureus,ST789,t091,SCCmec_type_V(5C2&5),MRSA,116
+064266_96,1,1,1,1,1,1,1,1,1,0,1,1,1,0,12,96,2,T234,U96,2017-05-24,5,,Igbobi,urine/catether tip,urine,71.0,Female,S.aureus,ST152,t355,Not Assigned,MSSA,66
+064267_97,1,1,1,1,1,1,1,1,1,1,1,1,1,0,13,97,78,T182,U97,2017-04-05,4,,LUTH,wound swab/pus,wound infection,35.0,Female,S.aureus,ST789,t091,Not Assigned,MSSA,89
+064268_98,1,1,1,1,1,1,1,1,1,1,1,1,1,0,13,98,79,T185,U98,2017-04-05,4,,Igbobi,wound swab/pus,Wound infection,37.0,Female,S.aureus,ST5,t311,SCCmec_type_IV(2B),MRSA,90
+064269_99,1,1,1,1,1,1,1,1,1,1,1,1,1,0,13,99,80,T226,U99,2017-05-18,5,,Igbobi,wound swab/pus,Wound infection,32.0,Male,S.aureus,ST1,t127,Not Assigned,MSSA,75
+064270_100,1,1,1,1,1,1,1,1,1,0,1,1,1,1,13,100,42,T60,U100,2017-07-03,7,,Igbobi,wound swab/pus,Wound infection,55.0,Female,S.aureus,ST152,t4690,SCCmec_type_V(5C2&5),MRSA,80
+064271_101,1,1,1,1,1,1,0,1,1,1,1,1,1,1,13,101,43,L130,U101,2017-12-04,12,,LUTH,aspirate/Ulcer/abscess,others,18.0,Female,S.aureus,ST30,t318,Not Assigned,MSSA,111
+064272_102,1,1,1,1,1,1,1,1,1,1,1,1,1,0,13,102,5,T251,U102,2017-07-06,7,,Igbobi,wound swab/pus,Wound infection,35.0,Female,S.aureus,ST772,t657,SCCmec_type_V(5C2),MRSA,122
+064273_103,1,1,1,1,1,1,1,1,1,1,1,1,1,0,13,103,21,T291,U103,2017-04-08,4,,Igbobi,wound swab/pus,Wound infection,50.0,Male,S.aureus,ST772,t657,SCCmec_type_V(5C2),MRSA,122
+064274_104,1,1,1,1,1,1,1,1,1,1,1,1,1,0,13,104,17,T284,U104,2017-08-30,8,,Igbobi,wound swab/pus,Wound infection,30.0,Male,S.aureus,ST772,t657,SCCmec_type_V(5C2),MRSA,122
+064275_105,1,1,1,1,1,1,1,1,1,1,1,1,1,0,13,105,10,T273,U105,2017-04-08,4,,Igbobi,urine/catether tip,urine,69.0,Male,S.aureus,ST772,t657,SCCmec_type_V(5C2),MRSA,121
+064276_106,1,1,1,1,1,1,1,1,1,1,0,1,0,0,11,106,23,T6,U106,2017-04-08,4,,Igbobi,urine/catether tip,urine,20.0,Male,S.aureus,ST121,t2304,Not Assigned,MSSA,82
+064277_107,1,1,1,1,1,1,1,1,1,1,1,1,1,0,13,107,70,L320,U107,2017-05-24,5,,LUTH,wound swab/pus,Wound infection,45.0,Male,S.aureus,ST7669,t657,SCCmec_type_V(5C2),MRSA,121
+235627_59B,1,1,1,1,1,1,1,1,1,1,1,1,1,0,13,59,16,T283,U59,2017-08-30,8,,Igbobi,wound swab/pus,Wound infection,31.0,Male,S.aureus,ST7669,t657,SCCmec_type_V(5C2),MRSA,122

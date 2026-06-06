@@ -1,0 +1,108 @@
+Storage No,ID,UK NUMBER,isolate number,DATE,Month analysis,week,LAB HOSPITALNO,SAMPLE,DIAGNOSIS,AGE in years,SEX,MALDI-TOF
+22,T248,U1,1,2017-05-31,5,22.0,Igbobi,wound swab/pus,Wound infection,35.0,Male,S.aureus
+23,L322,U2,2,2017-05-31,5,,LUTH,wound swab/pus,Wound infection,87.0,Male,S.aureus
+24,IK17,U3,3,2017-03-13,3,,IKEJA,aspirate/Ulcer/abscess,others,61.0,Male,S.aureus
+25,T213,U4,4,2017-12-05,12,,Igbobi,wound swab/pus,Wound infection,35.0,Male,S.aureus
+9,L133,U5,5,2017-02-05,0,,LUTH,wound swab/pus,Wound infection,35.0,Male,S.aureus
+12,T245,U6,6,2017-05-31,5,,Igbobi,wound swab/pus,Wound infection,35.0,Male,S.aureus
+13,L113,U7,7,2017-05-04,5,,LUTH,eye discharge,others,0.096,Male,S.aureus
+14,T246,U8,8,2017-05-31,5,,Igbobi,wound swab/pus,Wound infection,70.0,Male,S.aureus
+15,T200,U9,9,2017-10-05,10,,Igbobi,wound swab/pus,Wound infection,24.0,Male,S.aureus
+21,t228,U10,10,2017-05-24,5,,Igbobi,wound swab/pus,Wound infection,15.0,Male,S.aureus
+29,IK30,U11,11,2017-03-20,3,,IKEJA,wound swab/pus,Wound infection,54.0,Male,S.aureus
+30,T37,U12,12,2017-07-03,7,,Igbobi,urine/catether tip,others,35.0,Male,S.aureus
+11,IK29,U13,13,2017-03-20,3,,IKEJA,wound swab/pus,Wound infection,14.0,Male,S.aureus
+10,L110,U14,14,2017-05-04,5,,LUTH,Blood culture,blood,0.12,Male,S.aureus
+44,L143,U15,15,2017-04-18,4,,LUTH,Blood culture,blood,0.016,Female,S.aureus
+56,IK89,U16,16,2017-12-05,12,,IKEJA,wound swab/pus,Wound infection,11.0,Female,S.aureus
+55,IK85,U17,17,2017-12-05,12,,IKEJA,wound swab/pus,Wound infection,54.0,Male,S.aureus
+49,T231,U18,18,2017-05-18,5,,Igbobi,wound swab/pus,Wound infection,1.0,Male,S.aureus
+5,L232,U19,19,2017-04-05,4,,LUTH,Blood culture,Sepsis,25.0,Male,S.aureus
+6,L321,U20,20,2017-05-31,5,,LUTH,Trachea/sputum,others,42.0,Male,S.aureus
+1,L109,U21,21,2017-05-04,5,,LUTH,Blood culture,Sepsis,41.0,Male,S.aureus
+2,L291,U22,22,2017-04-05,4,,LUTH,wound swab/pus,Wound infection,32.0,Female,S.aureus
+3,L235,U23,23,2017-02-05,2,,LUTH,Blood culture,Sepsis,15.0,Male,S.aureus
+16,L60,U24,24,2017-03-16,3,,LUTH,wound swab/pus,Wound infection,17.0,Female,S.aureus
+17,T236,U25,25,2017-05-24,5,,Igbobi,aspirate/Ulcer/abscess,others,34.0,Female,S.aureus
+18,L318,U26,26,2017-05-24,5,,LUTH,wound swab/pus,Wound infection,28.0,Male,S.aureus
+19,L77,U27,27,2017-03-28,3,,LUTH,earswab,others,80.0,Female,S.aureus
+20,IK37,U28,28,2017-03-23,3,,IKEJA,earswab,others,6.0,Male,S.aureus
+28,L224,U29,29,2017-05-18,5,,Igbobi,wound swab/pus,Wound infection,9.0,Female,S.aureus
+51,IK53,U30,30,2017-11-04,11,,IKEJA,wound swab/pus,Wound infection,10.0,Female,S.aureus
+7,L101,U31,31,2017-03-30,3,,LUTH,wound swab/pus,others,45.0,Male,S.aureus
+8,T171,U32,32,2017-02-05,2,,LUTH,urine/catether tip,urine,35.0,Female,S.aureus
+4,T187,U33,33,2017-04-03,4,,Igbobi,wound swab/pus,Wound infection,57.0,Male,S.aureus
+31,IK21,U34,34,2017-03-13,3,,IKEJA,HVS/ECS,genitals,30.0,Female,S.aureus
+26,T295,U35,35,2017-10-16,10,,LUTH,wound swab/pus,Wound infection,52.0,Male,S.aureus
+27,L01,U36,36,2017-08-03,8,,LUTH,Blood culture,blood,3.0,Male,S.aureus
+47,IK50,U37,37,2017-11-04,11,,IKEJA,Blood culture,blood,2.0,Male,S.aureus
+50,T36,U38,38,2017-12-04,12,,Igbobi,wound swab/pus,Wound infection,6.0,Female,S.aureus
+81,T224,U39,39,2017-05-18,5,,Igbobi,wound swab/pus,Wound infection,9.0,Female,S.aureus
+37,IK63,U40,40,2017-04-19,4,,IKEJA,wound swab/pus,others,57.0,Female,S.aureus
+53,IK69,U41,41,2017-04-20,4,,IKEJA,wound swab/pus,Wound infection,53.0,Male,S.aureus
+46,IK106,U42,42,2017-05-24,5,,IKEJA,urine/catether tip,urine,44.0,Female,S.aureus
+52,IK55,U43,43,2017-11-04,11,,IKEJA,wound swab/pus,Wound infection,53.0,Female,S.aureus
+45,IK116,U44,44,2017-06-06,6,,IKEJA,wound swab/pus,Wound infection,16.0,Female,S.aureus
+75,T178,U45,45,2017-04-05,4,,LUTH,wound swab/pus,wound infection,54.0,Female,S.aureus
+76,T168,U46,46,2017-02-05,2,,Igbobi,wound swab/pus,Wound infection,51.0,Male,S.aureus
+67,L307,U47,47,2017-05-15,5,,LUTH,wound swab/pus,Wound infection,35.0,Female,S.aureus
+8,T269,U48,48,2017-07-21,7,,Igbobi,wound swab/pus,Wound infection,5.0,Female,S.aureus
+36,T220,U49,49,2017-05-18,5,,Igbobi,wound swab/pus,Wound infection,53.0,Female,S.aureus
+40,L129,U50,50,2017-12-04,12,,LUTH,aspirate/Ulcer/abscess,others,51.0,Female,S.aureus
+39,L333,U51,51,2017-06-13,6,,LUTH,Blood culture,blood,1.0,Female,S.aureus
+38,T181,U52,52,2017-04-05,4,,Igbobi,urine/catether tip,urine,23.0,Male,S.aureus
+33,L378,U53,53,2017-10-26,10,,LUTH,wound swab/pus,Wound infection,35.0,Male,S.aureus
+34,IK54,U54,54,2017-11-04,11,,IKEJA,wound swab/pus,others,34.0,Male,S.aureus
+60,L122,U55,55,2017-12-04,12,,LUTH,Blood culture,blood,19.0,Female,S.aureus
+35,IK119,U56,56,2017-06-06,6,,IKEJA,wound swab/pus,Wound infection,45.0,Male,S.aureus
+54,IK84,U57,57,2017-12-05,12,,IKEJA,wound swab/pus,Wound infection,35.0,Male,S.aureus
+32,T179,U58,58,2017-04-05,4,,Igbobi,urine/catether tip,urine,27.0,Female,S.aureus
+16,T283,U59,59,2017-08-30,8,,Igbobi,wound swab/pus,Wound infection,31.0,Male,S.aureus
+15,T281,U60,60,2017-08-16,8,,Igbobi,wound swab/pus,Wound infection,15.0,Male,S.aureus
+72,L342,U61,61,2017-06-18,6,,LUTH,wound swab/pus,Wound infection,1.0,Female,S.aureus
+73,L375,U62,62,2017-10-19,10,,LUTH,aspirate/Ulcer/abscess,others,0.038,Female,S.aureus
+74,L386,U63,63,2017-10-19,10,,LUTH,Blood culture,blood,67.0,Male,S.aureus
+26,144,U64,64,2017-11-04,11,,LUTH,wound swab/pus,STAPH,38.0,Female,S.aureus
+6,T252,U65,65,2017-07-06,7,,Igbobi,wound swab/pus,Wound infection,12.0,Female,S.aureus
+7,T268,U66,66,2017-07-21,7,,Igbobi,wound swab/pus,Wound infection,45.0,Male,S.aureus
+4,T241,U67,67,2017-05-31,5,,Igbobi,wound swab/pus,Wound infection,70.0,Female,S.aureus
+12,T276,U68,68,2017-07-21,7,,Igbobi,wound swab/pus,Wound infection,72.0,Male,S.aureus
+41,IK10,U69,69,2017-03-30,3,,IKEJA,Trachea/sputum,SPUTUM,17.0,Female,S.aureus
+59,L142,U70,70,2017-04-18,4,,LUTH,Blood culture,blood,0.019,Male,S.aureus
+62,L144,U71,71,2017-04-18,4,,LUTH,Blood culture,blood,0.003,Male,S.aureus
+68,L308,U72,72,2017-05-15,5,,LUTH,wound swab/pus,Wound infection,0.038,Male,S.aureus
+69,L309,U73,73,2017-05-18,5,,LUTH,earswab,others,35.0,Female,S.aureus
+3,T239,U74,74,2017-05-31,5,,Igbobi,wound swab/pus,Wound infection,39.0,Male,S.aureus
+57,IK90,U75,75,2017-12-05,12,,IKEJA,wound swab/pus,Wound infection,11.0,Female,S.aureus
+48,IK117,U76,76,2017-06-06,6,,IKEJA,wound swab/pus,Wound infection,50.0,Male,S.aureus
+71,L325,U77,77,2017-06-06,6,,LUTH,Blood culture,blood,66.0,Female,S.aureus
+77,T183,U78,78,2017-04-05,4,,Igbobi,wound swab/pus,Wound infection,42.0,Male,S.aureus
+11,T275,U79,79,2017-07-21,7,,Igbobi,wound swab/pus,Wound infection,82.0,Male,S.aureus
+18,T285,U80,80,2017-08-30,8,,Igbobi,wound swab/pus,Wound infection,40.0,Female,S.aureus
+64,L188,U81,81,2017-04-26,4,,LUTH,Blood culture,blood,2.0,Male,S.aureus
+65,L227,U82,82,2017-02-05,2,,LUTH,Blood culture,blood,69.0,Male,S.aureus
+66,L306,U83,83,2017-05-15,5,,LUTH,HVS/ECS,others,35.0,Female,S.aureus
+19,T286,U84,84,2017-08-30,8,,Igbobi,wound swab/pus,Wound infection,25.0,Male,S.aureus
+24,T85,U85,85,2017-04-19,4,,Igbobi,aspirate/Ulcer/abscess,others,26.0,Female,S.aureus
+13,T279,U86,86,2017-08-16,8,,Igbobi,wound swab/pus,Wound infection,27.0,Male,S.aureus
+20,T290,U87,87,2017-08-30,8,,Igbobi,wound swab/pus,Wound infection,35.0,Male,S.aureus
+61,IK51,U88,88,2017-11-04,11,,IKEJA,earswab,others,12.0,Male,S.aureus
+9,T270,U89,89,2017-07-21,7,,Igbobi,HVS/ECS,genitals,35.0,Female,S.aureus
+ii-1,T238,U90,90,2017-05-31,5,,Igbobi,wound swab/pus,Wound infection,35.0,Male,S.aureus
+22,T55,U91,91,2017-04-13,4,,Igbobi,wound swab/pus,Wound infection,42.0,Male,S.aureus
+63,L152,U92,92,2017-04-19,4,,LUTH,Blood culture,blood,0.15,Male,S.aureus
+58,IK93,U93,93,2017-05-18,5,,IKEJA,HVS/ECS,genitals,30.0,Female,S.aureus
+25,T91,U94,94,2017-04-19,4,,Igbobi,aspirate/Ulcer/abscess,others,75.0,Male,S.aureus
+14,T28,U95,95,2017-04-20,4,,Igbobi,wound swab/pus,Wound infection,35.0,Male,S.aureus
+2,T234,U96,96,2017-05-24,5,,Igbobi,urine/catether tip,urine,71.0,Female,S.aureus
+78,T182,U97,97,2017-04-05,4,,LUTH,wound swab/pus,wound infection,35.0,Female,S.aureus
+79,T185,U98,98,2017-04-05,4,,Igbobi,wound swab/pus,Wound infection,37.0,Female,S.aureus
+80,T226,U99,99,2017-05-18,5,,Igbobi,wound swab/pus,Wound infection,32.0,Male,S.aureus
+42,T60,U100,100,2017-07-03,7,,Igbobi,wound swab/pus,Wound infection,55.0,Female,S.aureus
+43,L130,U101,101,2017-12-04,12,,LUTH,aspirate/Ulcer/abscess,others,18.0,Female,S.aureus
+5,T251,U102,102,2017-07-06,7,,Igbobi,wound swab/pus,Wound infection,35.0,Female,S.aureus
+21,T291,U103,103,2017-04-08,4,,Igbobi,wound swab/pus,Wound infection,50.0,Male,S.aureus
+17,T284,U104,104,2017-08-30,8,,Igbobi,wound swab/pus,Wound infection,30.0,Male,S.aureus
+10,T273,U105,105,2017-04-08,4,,Igbobi,urine/catether tip,urine,69.0,Male,S.aureus
+23,T6,U106,106,2017-04-08,4,,Igbobi,urine/catether tip,urine,20.0,Male,S.aureus
+70,L320,U107,107,2017-05-24,5,,LUTH,wound swab/pus,Wound infection,45.0,Male,S.aureus
