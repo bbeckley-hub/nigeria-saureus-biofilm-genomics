@@ -80,7 +80,7 @@ write.csv(cor_df, "biofilm_vs_amr_class_correlations.csv", row.names = FALSE)
 p <- ggplot(cor_df[1:min(10, nrow(cor_df)), ], aes(x = reorder(AMR_Class, Spearman_rho), y = Spearman_rho, fill = Spearman_rho > 0)) +
   geom_bar(stat = 'identity') +
   coord_flip() +
-  labs(title = "Spearman correlation: biofilm score vs AMR class count",
+  labs(,
        x = "AMR class", y = "Spearman's rho") +
   theme_minimal() +
   theme(legend.position = 'none')

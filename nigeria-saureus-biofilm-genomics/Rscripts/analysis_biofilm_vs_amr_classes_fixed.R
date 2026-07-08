@@ -1,18 +1,14 @@
 #!/usr/bin/env Rscript
-# Correlation between biofilm score and AMR gene classes (fixed)
+# Spearman correlation between biofilm score and AMR class counts
 
 library(dplyr)
 library(ggplot2)
+library(tidyr)
 
-# ----------------------------------------------------------------------
-# 1. Read data
-# ----------------------------------------------------------------------
-df <- read.csv('biofilm_analysis_dataset.csv', stringsAsFactors = FALSE)
+df <- read.csv('biofilm_analysis_dataset_expanded.csv', stringsAsFactors = FALSE)
 amr <- read.csv('amr_genes.csv', stringsAsFactors = FALSE)
 
-# ----------------------------------------------------------------------
-# 2. Define AMR classes based on gene name patterns
-# ----------------------------------------------------------------------
+# Classify AMR genes
 classify_amr <- function(gene) {
   gene_lower <- tolower(gene)
   if (grepl('mec', gene_lower)) return('Beta_lactam')
@@ -33,9 +29,7 @@ classify_amr <- function(gene) {
   return('Other')
 }
 
-# ----------------------------------------------------------------------
-# 3. Build per‑isolate AMR class counts
-# ----------------------------------------------------------------------
+# Build per-isolate counts per class
 amr_classes <- amr %>%
   mutate(Class = sapply(Gene, classify_amr)) %>%
   group_by(Class) %>%
@@ -45,9 +39,8 @@ amr_classes <- amr %>%
   }) %>%
   group_by(Class, Sample) %>%
   summarise(count = n(), .groups = 'drop') %>%
-  tidyr::pivot_wider(names_from = Class, values_from = count, values_fill = 0)
+  pivot_wider(names_from = Class, values_from = count, values_fill = 0)
 
-# Ensure all columns except Sample are numeric
 amr_classes <- as.data.frame(amr_classes)
 for (col in setdiff(names(amr_classes), 'Sample')) {
   amr_classes[[col]] <- as.numeric(amr_classes[[col]])
@@ -59,12 +52,8 @@ colnames(amr_classes)[colnames(amr_classes) == 'Sample'] <- 'staphscope_id'
 df_merged <- merge(df_biofilm, amr_classes, by = 'staphscope_id', all.x = TRUE)
 df_merged[is.na(df_merged)] <- 0
 
-# ----------------------------------------------------------------------
-# 4. Correlation matrix (Spearman) between biofilm score and AMR classes
-# ----------------------------------------------------------------------
-# Identify numeric columns (exclude staphscope_id and biofilm_score for the matrix)
+# Spearman correlation for each class
 numeric_cols <- sapply(df_merged, is.numeric)
-# Keep only AMR class columns (exclude biofilm_score itself)
 amr_class_cols <- setdiff(names(df_merged)[numeric_cols], 'biofilm_score')
 if (length(amr_class_cols) == 0) {
   cat("No AMR class columns found. Check classification.\n")
@@ -80,18 +69,15 @@ print(cor_df)
 
 write.csv(cor_df, "biofilm_vs_amr_class_correlations.csv", row.names = FALSE)
 
-# ----------------------------------------------------------------------
-# 5. Barplot of top correlations (if any)
-# ----------------------------------------------------------------------
+# Barplot
 if (nrow(cor_df) > 0) {
-  p <- ggplot(cor_df[1:min(10, nrow(cor_df)), ], aes(x = reorder(AMR_Class, Spearman_rho), y = Spearman_rho, fill = Spearman_rho > 0)) +
+  p <- ggplot(cor_df[1:min(10, nrow(cor_df)), ], 
+              aes(x = reorder(AMR_Class, Spearman_rho), y = Spearman_rho, fill = Spearman_rho > 0)) +
     geom_bar(stat = 'identity') +
     coord_flip() +
-    labs(title = "Spearman correlation: biofilm score vs AMR class count",
-         x = "AMR class", y = "Spearman's rho") +
+    labs(x = "AMR class", y = "Spearman's rho") +
     theme_minimal() +
     theme(legend.position = 'none')
-  
   ggsave("fig8_biofilm_vs_amr_class_corr.pdf", plot = p, width = 6, height = 5, dpi = 300)
   cat("Correlation plot saved as fig8_biofilm_vs_amr_class_corr.pdf\n")
 } else {

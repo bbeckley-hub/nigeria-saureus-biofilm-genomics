@@ -1,31 +1,20 @@
 #!/usr/bin/env Rscript
-# Analysis 5: Heatmap of biofilm gene presence/absence
+# Heatmap of biofilm gene presence/absence with visible gene names
 
-library(ggplot2)
-library(reshape2)
 library(dplyr)
 library(pheatmap)
 
-# ----------------------------------------------------------------------
-# 1. Read data
-# ----------------------------------------------------------------------
-df <- read.csv('biofilm_analysis_dataset.csv', stringsAsFactors = FALSE)
+df <- read.csv('biofilm_analysis_dataset_expanded.csv', stringsAsFactors = FALSE)
 
-# ----------------------------------------------------------------------
-# 2. Prepare biofilm gene matrix (rows = isolates, columns = genes)
-# ----------------------------------------------------------------------
-gene_cols <- c('icaA', 'icaB', 'icaC', 'icaD', 'icaR',
-               'fnbA', 'fnbB', 'clfA', 'clfB', 'sdrC', 'sdrD', 'sdrE',
-               'ebp', 'cna')
+# Select all biofilm gene columns (2:25)
+gene_cols <- names(df)[2:25]
+cat("Gene columns found:\n")
+print(gene_cols)
 
-# Convert to matrix (values 0/1)
 mat <- as.matrix(df[, gene_cols])
 rownames(mat) <- df$staphscope_id
 
-# ----------------------------------------------------------------------
-# 3. Create annotation data frame for columns (optional: gene categories)
-# ----------------------------------------------------------------------
-# For simplicity, we'll annotate rows with metadata
+# Annotation rows
 annotation_row <- data.frame(
   MRSA_Status = df$MRSA_Status,
   MLST = df$MLST,
@@ -33,11 +22,8 @@ annotation_row <- data.frame(
 )
 rownames(annotation_row) <- df$staphscope_id
 
-# Simplify MLST for colour display (highlight major STs)
 annotation_row$MLST_group <- ifelse(annotation_row$MLST %in% c('ST772', 'ST152', 'ST8', 'ST30', 'ST508', 'ST1', 'ST15', 'ST121', 'ST789'),
                                     annotation_row$MLST, 'Other')
-
-# Simplify source categories (as previously defined)
 annotation_row$Source_group <- case_when(
   grepl('wound', annotation_row$Source, ignore.case = TRUE) ~ 'Wound',
   grepl('Blood', annotation_row$Source, ignore.case = TRUE) ~ 'Blood',
@@ -46,11 +32,9 @@ annotation_row$Source_group <- case_when(
   TRUE ~ 'Other'
 )
 
-# Select annotation columns for heatmap
 annotation_for_plot <- annotation_row[, c('MRSA_Status', 'MLST_group', 'Source_group')]
 colnames(annotation_for_plot) <- c('MRSA', 'MLST', 'Source')
 
-# Define annotation colours
 ann_colors <- list(
   MRSA = c('MSSA' = '#2E86AB', 'MRSA' = '#D64933'),
   MLST = c('ST772' = '#1B9E77', 'ST152' = '#D95F02', 'ST8' = '#7570B3',
@@ -61,34 +45,30 @@ ann_colors <- list(
              'Aspirate/Abscess' = '#F564E3', 'Other' = '#B79F00')
 )
 
-# ----------------------------------------------------------------------
-# 4. Generate heatmap
-# ----------------------------------------------------------------------
+# Full heatmap with visible column names
 pheatmap(
   mat,
-  main = "Biofilm gene presence/absence across isolates",
   cluster_rows = TRUE,
   cluster_cols = TRUE,
-  show_rownames = FALSE,          # Too many isolates to show names
+  show_rownames = FALSE,
   show_colnames = TRUE,
   annotation_row = annotation_for_plot,
   annotation_colors = ann_colors,
   color = c("white", "#2c7bb6"),
   legend = TRUE,
-  fontsize_col = 10,
+  fontsize_col = 7,
+  fontsize_row = 6,
+  angle_col = 45,                     # Rotate column labels
   filename = "fig5_biofilm_gene_heatmap.pdf",
-  width = 10,
-  height = 12,
-  cellwidth = 20,
-  cellheight = 8
+  width = 12,                         # Increased width
+  height = 14,                        # Increased height
+  cellwidth = 18,
+  cellheight = 7,
+  main = NA
 )
-
 cat("Heatmap saved as fig5_biofilm_gene_heatmap.pdf\n")
 
-# ----------------------------------------------------------------------
-# 5. Generate a simplified heatmap with only key isolates (e.g., top STs)
-# ----------------------------------------------------------------------
-# Filter to isolates from major STs (≥5 isolates)
+# Heatmap for major STs only
 major_sts <- c('ST772', 'ST152', 'ST30', 'ST508', 'ST8', 'ST121', 'ST789', 'ST1', 'ST15')
 df_major <- df %>% filter(MLST %in% major_sts)
 mat_major <- as.matrix(df_major[, gene_cols])
@@ -99,17 +79,20 @@ colnames(annotation_row_major) <- c('MRSA', 'MLST')
 
 pheatmap(
   mat_major,
-  main = "Biofilm gene presence/absence (major STs only)",
   cluster_rows = TRUE,
   cluster_cols = TRUE,
   show_rownames = FALSE,
+  show_colnames = TRUE,
   annotation_row = annotation_row_major,
   annotation_colors = ann_colors[c('MRSA', 'MLST')],
   color = c("white", "#2c7bb6"),
+  fontsize_col = 8,
+  angle_col = 45,
   filename = "fig5_biofilm_gene_heatmap_major_STs.pdf",
-  width = 8,
-  height = 10,
+  width = 10,
+  height = 12,
   cellwidth = 20,
-  cellheight = 8
+  cellheight = 8,
+  main = NA
 )
 cat("Heatmap for major STs saved as fig5_biofilm_gene_heatmap_major_STs.pdf\n")
