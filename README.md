@@ -23,7 +23,7 @@ Innocent Afeke^6^, Adesola Olalekan^7,*,dagger^
    of Lagos, Lagos, Nigeria
 
 \* Corresponding authors: brownbeckley94@gmail.com, adesolaolalekan@unilag.edu.ng
-\dagger These authors contributed equally to this work
+These authors contributed equally to this work
 
 **Repository:** https://github.com/bbeckley-hub/nigeria-saureus-biofilm-genomics
 **Raw sequencing reads:** NCBI BioProject PRJNA1235457 (https://www.ncbi.nlm.nih.gov/bioproject/PRJNA1235457)
