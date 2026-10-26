@@ -1,0 +1,3 @@
+"Analysis","n","Mean_AMR_count","Median_AMR_count","Spearman_rho","CI_lower","CI_upper","p_value","Interpretation"
+"With intrinsic efflux determinants (primary analysis)",107,18.8,21,0.422,0.219,0.571,6.02e-06,"Primary correlation between biofilm-associated gene carriage score and total AMR determinant count"
+"Without intrinsic efflux determinants (sensitivity analysis)",107,12.9,15,0.422,0.219,0.571,6.02e-06,"Sensitivity analysis excluding intrinsic efflux determinants, confirming that the association is driven by acquired resistance determinants rather than the intrinsic core resistome"

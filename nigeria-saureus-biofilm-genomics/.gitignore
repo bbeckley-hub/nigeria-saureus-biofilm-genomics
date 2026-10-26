@@ -1,0 +1,12 @@
+# Intermediate R outputs
+*-1.png
+Rplots.pdf
+.DS_Store
+
+# Editor files
+*.swp
+*~
+
+# R session files
+.RData
+.Rhistory
